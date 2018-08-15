@@ -1,0 +1,12 @@
+<div>
+  <form [formGroup] = "productForm" (submit) = "showData()">
+    <div>
+      <label>Category</label>
+      <input type="text" formControlName="category">
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+<router-outlet></router-outlet>
